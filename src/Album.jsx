@@ -12,7 +12,7 @@ import ex from ".././public/ex.png";
 const Album = () => {
   return (
     <main>
-      <div class="album py-2 bg-dark">
+      <div class="album py-2 mb-4 bg-dark">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <Each
