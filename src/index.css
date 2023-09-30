@@ -1,0 +1,77 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #212529;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  user-select: none;
+}
+
+.card {
+  background-color: #212529;
+  /* border: 3px solid white; */
+  border-radius: 10px;
+  transition: border 0.2s ease;
+}
+
+.card:hover {
+  /* border: 5px solid #3a7e6e; */
+  border: 5px solid white;
+  transition: border 0.2s ease;
+}
+
+.nav-link {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid white;
+}
+
+.linkedin-icon {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.linkedin-icon:hover {
+  opacity: 1;
+}
+
+.logo,
+.perfil {
+  transition: transform 0.3s ease;
+}
+
+.logo:hover,
+.perfil:hover {
+  transform: scale(1.1);
+}
+
+.projData {
+  padding-right: 10px;
+  padding-left: 10px;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+  border-radius: 50px;
+}
+
+.projData:hover {
+  opacity: 1;
+}
