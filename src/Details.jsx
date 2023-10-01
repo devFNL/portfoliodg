@@ -7,6 +7,7 @@ import academicdata from ".././public/academicdata.jpg";
 
 import ceballosdata from ".././public/ceballosdata.jpg";
 import caliosadata from ".././public/caliosadata.jpg";
+import webdata from "../public/webdata.jpg";
 import ex from ".././public/ex.png";
 
 const Details = () => {
@@ -51,7 +52,7 @@ const Details = () => {
       name: "Diseño Web/UX/UI",
       year: "2016",
       description: "Descripción del proyecto Diseño Web/UX/UI.",
-      img: ex,
+      img: webdata,
     },
     academic: {
       name: "Carrera Diseño Grafico",
