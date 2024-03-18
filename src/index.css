@@ -75,3 +75,18 @@
 .projData:hover {
   opacity: 1;
 }
+
+.stack {
+  margin: auto;
+  padding: 0 1px;
+  margin-top: 20px;
+}
+
+.stack {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.stack:hover {
+  opacity: 1;
+}

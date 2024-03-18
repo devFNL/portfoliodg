@@ -64,6 +64,14 @@ const Details = () => {
 
   const project = projectData[projName];
 
+  // Lógica para redirigir a details/brand cuando se está en ciertos proyectos
+  const redirectToBrand = [
+    "ceballosbienesraices",
+    "caliosa",
+    "celottisrl",
+    "livernum",
+  ].includes(projName);
+
   return (
     <div className="mb-3 bg-dark">
       <div className="mb-4 bg-dark" style={detailCard}>
@@ -71,19 +79,24 @@ const Details = () => {
           <div className="card-body">
             {/* <h4 className="card-title text-center fs-2 text-white border-bottom mb-3">
               {project.name}
-            </h4> */}
-
-            {/* <p className="card-text mb-4 fs-4 border-bottom">
+            </h4>
+            <p className="card-text mb-4 fs-4 border-bottom">
               <small className="text-white">{project.description}</small>
             </p> */}
-            <img src={project.img} alt="" class="projData" width={"100%"} />
+            <img src={project.img} alt="" className="projData" width={"100%"} />
           </div>
         </div>
       </div>
       <div className="d-flex w-50 align-items-center justify-content-center m-auto">
-        <Link to={"/mywork"} className="btn btn-md btn-outline-light">
-          Back
-        </Link>
+        {redirectToBrand ? (
+          <Link to={"/details/brand"} className="btn btn-md btn-outline-light">
+            Back
+          </Link>
+        ) : (
+          <Link to={"/mywork"} className="btn btn-md btn-outline-light">
+            Back
+          </Link>
+        )}
       </div>
     </div>
   );

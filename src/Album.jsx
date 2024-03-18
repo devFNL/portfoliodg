@@ -1,11 +1,13 @@
 import React from "react";
 import Each from "./Each";
+import Brand from "./Brand";
 
 import ceballos from ".././public/ceballos.jpg";
 import caliosa from "../public/caliosa.jpg";
 import livernum from ".././public/livernum.jpg";
 import celotti from ".././public/celotti.jpg";
 import academic from ".././public/academic.jpg";
+import brand from "../public/brand.jpg";
 import web from "../public/web.jpg";
 import ex from ".././public/ex.png";
 
@@ -15,15 +17,17 @@ const Album = () => {
       <div class="album py-2 mb-4 bg-dark">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <Each
+            {/* <Each
               name="Ceballos Bienes Raíces"
               url="ceballosbienesraices"
               img={ceballos}
-            />
-            <Each name="Caliosa" url="caliosa" img={caliosa} />
-            <Each name="Celotti S.R.L" url="celottisrl" img={celotti} />
-            <Each name="Livernum" url="livernum" img={livernum} />
+            /> */}
+            {/* <Each name="Caliosa" url="caliosa" img={caliosa} /> */}
+            {/* <Each name="Celotti S.R.L" url="celottisrl" img={celotti} /> */}
+            {/* <Each name="Livernum" url="livernum" img={livernum} /> */}
+
             <Each name="Diseño Web/UX/UI" url="web" img={web} />
+            <Each name="Branding" url="brand" img={brand} />
             <Each name="Carrera Diseño Gráfico" url="academic" img={academic} />
           </div>
         </div>
