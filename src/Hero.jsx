@@ -45,8 +45,8 @@ const Hero = () => {
         <div className="col-lg-6">
           <div className="py-4 text-lg-start">
             <p className="fs-4 mb-4">
-              I'm a freelance graphic designer from Argentina with over 7 years
-              of experience, including 2 years as a Brand and Image Manager. My
+              Hi, I'm Federico, from Argentina. I've been a graphic designer for
+              over 5 years, including 2 years as a Brand and Image Manager. My
               passion for design drives me to constantly pursue excellence in
               every project, with a deep focus on design theory and innovation.
               I specialize in brand design and have recently been focused on
